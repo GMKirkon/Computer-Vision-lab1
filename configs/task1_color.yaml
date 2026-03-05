@@ -1,0 +1,24 @@
+data_root: data/dvm_fronts/confirmed_fronts
+image_table_csv: data/dvm_tables/Image_table.csv
+out_dir: runs_task1_color
+device: mps
+
+front_only: true
+min_samples_per_class: 400
+max_classes: 0
+
+img_size: 224
+batch_size: 64
+num_workers: 0
+test_size: 0.15
+val_size: 0.15
+
+scratch_epochs: 45
+finetune_epochs: 25
+patience: 10
+lr_scratch: 0.001
+lr_finetune: 0.0003
+weight_decay: 0.0001
+
+seed: 42
+save_confusion: true

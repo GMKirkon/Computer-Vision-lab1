@@ -1,0 +1,9 @@
+{
+  "model_name": "custom_resnet18_like_scratch",
+  "best_val_f1": 0.7557501642828045,
+  "best_epoch": 39,
+  "test_loss": 0.9602995940860839,
+  "test_acc": 0.8408365437534397,
+  "test_f1_macro": 0.7375411626872855,
+  "test_f05_macro": 0.730707134285859
+}

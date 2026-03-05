@@ -1,0 +1,9 @@
+{
+  "model_name": "mobilenet_v3_large_imagenet_finetune",
+  "best_val_f1": 0.8128430007093472,
+  "best_epoch": 24,
+  "test_loss": 1.5578349175135644,
+  "test_acc": 0.8936708860759494,
+  "test_f1_macro": 0.7999260713183025,
+  "test_f05_macro": 0.8020372696749304
+}

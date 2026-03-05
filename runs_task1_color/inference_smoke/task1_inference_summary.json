@@ -1,0 +1,50 @@
+{
+  "weights": "runs_task1_color/densenet121_imagenet_finetune/best_densenet121_imagenet_finetune.pth",
+  "model_name": "densenet121_imagenet_finetune",
+  "num_classes": 12,
+  "class_names": [
+    "beige",
+    "black",
+    "blue",
+    "brown",
+    "green",
+    "grey",
+    "orange",
+    "red",
+    "silver",
+    "unlisted",
+    "white",
+    "yellow"
+  ],
+  "images_total": 1,
+  "top1_class_histogram": {
+    "black": 1
+  },
+  "predictions": [
+    {
+      "image": "data/dvm_fronts/confirmed_fronts/Abarth/2013/Abarth$$595$$2013$$Black$$2_4$$100$$image_1.jpg",
+      "top1": {
+        "class_id": 1,
+        "class_name": "black",
+        "prob": 0.999946117401123
+      },
+      "topk": [
+        {
+          "class_id": 1,
+          "class_name": "black",
+          "prob": 0.999946117401123
+        },
+        {
+          "class_id": 5,
+          "class_name": "grey",
+          "prob": 5.0296843255637214e-05
+        },
+        {
+          "class_id": 10,
+          "class_name": "white",
+          "prob": 2.4416492578893667e-06
+        }
+      ]
+    }
+  ]
+}
